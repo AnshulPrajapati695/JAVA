@@ -75,9 +75,19 @@ public class Condition{
         break;
         case 3: System.out.println(num1*num2);
         break;
-        case 4: System.out.println(num1/num2);
+        case 4: if(num2==0){
+            System.out.println("Invalid Division");
+        }
+          else{
+            System.out.println(num1/num2);
+          }
         break;
-        case 5: System.out.println(num1%num2);
+        case 5: if(num2==0){
+            System.out.println("Invalid Division");
+        }
+          else{
+            System.out.println(num1%num2);
+          }
         break;
         default: System.out.println("Invalid Operation");
     }
