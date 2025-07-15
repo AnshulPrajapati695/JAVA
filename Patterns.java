@@ -162,6 +162,14 @@ public class Patterns{
 
         System.out.println();
 
+        /*
+            
+    *****
+   *****
+  *****
+ *****
+*****      */
+
         //outer loop
         for(int i=1;i<=5;i++){
             //inner loop for space
@@ -177,6 +185,12 @@ public class Patterns{
 
         System.out.println();
 
+/*
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5   */
         //outer loop
         for(int i=1;i<=5;i++){
             //inner loop for space
