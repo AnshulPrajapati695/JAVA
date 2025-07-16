@@ -218,5 +218,28 @@ public class AdvancePatterns{
             System.out.println();
             n++;
         }
+
+        System.out.println();
+
+/*
+     1
+    1 1
+   1 2 1
+  1 3 3 1 
+ 1 4 6 4 1    */
+        for (int i = 0; i < 5; i++) {
+            // Print spaces to format triangle
+            for (int j = 0; j < 5 - i; j++) {
+                System.out.print(" ");
+            }
+
+            int number = 1;
+            for (int j = 0; j <= i; j++) {
+                System.out.print(number + " ");
+                number = number * (i - j) / (j + 1);
+            }
+
+            System.out.println();
+        }
     }
 }
